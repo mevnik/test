@@ -21,11 +21,5 @@
     "url": "https://github.com/mevnik/test/issues"
   },
   "homepage": "https://github.com/mevnik/test#readme",
-  "dependencies": {
-    "jquery": "^3.6.0",
-    "webpac": "^0.0.1-security"
-  },
-  "devDependencies": {
-    "webpack": "^5.68.0"
-  }
+  
 }
