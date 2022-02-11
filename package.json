@@ -1,7 +1,7 @@
 {
-  "name": "test_git",
+  "name": "test",
   "version": "1.0.0",
-  "description": "test git and redis",
+  "description": "try git and redis",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,6 @@
   },
   "keywords": [
     "git",
-    "test",
     "redis"
   ],
   "author": "mevnik",
@@ -21,5 +20,10 @@
     "url": "https://github.com/mevnik/test/issues"
   },
   "homepage": "https://github.com/mevnik/test#readme",
-  
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.68.0"
+  }
 }
