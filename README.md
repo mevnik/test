@@ -5,6 +5,7 @@ and GIT
 /*
 Для работы с депозитарием поставил Sublime Merge
 https://www.sublimemerge.com/docs/getting_started#pushing_and_pulling
+Наверное можно обойтись и без Sublime Merge: https://habr.com/ru/post/233899/
 
 устанавливаем в проект файл json командой: npm init
 теперь можем подключать библиотеки, например jquery: npm install jquery
@@ -15,14 +16,16 @@ https://www.sublimemerge.com/docs/getting_started#pushing_and_pulling
 т.е. устанавливаем зависимость только для разработки
 
 Основные команды для работы с webpack:
-npx webpack build (для запуска упаковщика. всякий раз, когда подкдючаем какой- новый скрипт)
+npx webpack build или npm run build(для запуска упаковщика. всякий раз, когда подкдючаем какой- новый скрипт)
 npx webpack --mode development (или production. полное или минимизированное содержание файла main.js)
 npm i eslint --save-dev
+для проверки файлов в какой-то папке(например, src) запускаем npx eslint ./src
 https://webpack.js.org/configuration/
 https://www.cat-in-web.ru/webpack-from-zero/
 https://maxpfrontend.ru/perevody/ustanovka-i-nastroyka-webpack-4/
 В последних версиях можно обойтись без файла webpack.config.js, т.к. точки входа и выхода уже прописаны по умолчанию. При нообходимости его можно создать в корне проекта.
 В файле package.json в "script" можно прописать другие команды, которые будут запускаться командой npm run "name of new comand"
+В настройках webpack надо рукаводсвоваться последней версией: https://habr.com/ru/post/524260/. В уроке рекомендуемые настройки устарели.
 
 
 

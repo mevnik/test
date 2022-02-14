@@ -1,3 +1,5 @@
+require('./less');
+
 var App = function() {
     console.log('Hello git');
 };
@@ -13,4 +15,5 @@ var App2 = function() {
 var app2 = new App2();
 
 var $ = require('jquery');
-$('body').html('<h1>Hello, webpack</h1>');
+$('body').html('<div class ="first"><h2 class ="first__second">Hello,less!<div> </div></h2></div>');
+

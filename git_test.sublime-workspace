@@ -480,10 +480,10 @@
 	"buffers":
 	[
 		{
-			"file": "test.css",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 177,
+				"buffer_size": 23,
 				"line_ending": "Unix"
 			}
 		}
@@ -528,7 +528,9 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/evgeniimoseikin/Documents/PROJECTES/React/test1/test"
+		"/Users/evgeniimoseikin/Documents/PROJECTES/React/test2/test",
+		"/Users/evgeniimoseikin/Documents/PROJECTES/React/test2/test/public",
+		"/Users/evgeniimoseikin/Documents/PROJECTES/React/test2/test/src"
 	],
 	"file_history":
 	[
@@ -700,12 +702,12 @@
 			[
 				{
 					"buffer": 0,
-					"file": "test.css",
+					"file": ".gitignore",
 					"selected": true,
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 177,
+						"buffer_size": 23,
 						"regions":
 						{
 						},
@@ -718,9 +720,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
